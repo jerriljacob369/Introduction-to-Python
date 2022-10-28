@@ -1,0 +1,355 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPQS5bZ0pmx3pqC9tclPk4L",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/jerriljacob369/Introduction-to-Python/blob/main/def\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "id": "hXMa_P6nr7ka"
+      },
+      "outputs": [],
+      "source": [
+        "def jerril():\n",
+        "  print(\"hello\")"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "jerril()"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "MUXWJqHetIZ8",
+        "outputId": "8fa9235f-0e74-49d1-cd8c-6a8cf273bad5"
+      },
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "hello\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def jerril(x,y):\n",
+        "  z=x+y\n",
+        "  print(\"Result=\",z)"
+      ],
+      "metadata": {
+        "id": "yotEyfxUtM1O"
+      },
+      "execution_count": 3,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "jerril(5,6)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Shpd_aZjuLFE",
+        "outputId": "744f5fa5-27bf-43d6-b5fc-9d3908f26cd5"
+      },
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Result= 11\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def jerril(x,y):\n",
+        "  z=x*y\n",
+        "  print(\"Result=\",z)\n",
+        "  "
+      ],
+      "metadata": {
+        "id": "zLMpCLBfutM8"
+      },
+      "execution_count": 5,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "jerril(5,6)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "FqyS6iYovdY0",
+        "outputId": "cf2634ae-8b2e-42ba-ad8c-29495cbbc1d6"
+      },
+      "execution_count": 6,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Result= 30\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def jerril(x,y):\n",
+        "  z=y-x\n",
+        "  print(\"Result=\",z)\n",
+        "  "
+      ],
+      "metadata": {
+        "id": "KAHUM8wzvgJZ"
+      },
+      "execution_count": 7,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "jerril(5,6)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Eg3k0dMrvnAW",
+        "outputId": "846590dd-9a52-43eb-c97a-4158fc79b2e8"
+      },
+      "execution_count": 8,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Result= 1\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def jerril(x,y):\n",
+        "  z=x/y\n",
+        "  print(\"Result=\",z)\n",
+        "  "
+      ],
+      "metadata": {
+        "id": "kA3_oIIsvpKi"
+      },
+      "execution_count": 9,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "jerril(15,3)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Z3cGJvnovz51",
+        "outputId": "75860180-723d-4b24-c82d-64d9291993e7"
+      },
+      "execution_count": 10,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Result= 5.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def jerril(x):\n",
+        " jerril(x)"
+      ],
+      "metadata": {
+        "id": "VbsdUBrgv2-A"
+      },
+      "execution_count": 11,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x=int(input(\"Enter a salary\"))\n",
+        "if x>250000:\n",
+        "   print(\"You are taxable\")\n",
+        "else:\n",
+        "   print(\"You are not taxable\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "cKm7g94wxrG3",
+        "outputId": "e1195e85-5645-4abe-d003-110b0b962e08"
+      },
+      "execution_count": 12,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter a salary400000\n",
+            "You are taxable\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def jerril(x):\n",
+        " x=int(input(\"Enter a salary\"))\n",
+        " jerril(x)\n",
+        "if x<250000:\n",
+        "  print(\"No tax\")\n",
+        "else:\n",
+        "  print(\"Tax\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "x9uHQEw1ySdV",
+        "outputId": "68ec805b-0bb0-4be3-b72f-c795de8ee7d0"
+      },
+      "execution_count": 13,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Tax\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def add(x,y):\n",
+        "  print(x+y)\n",
+        "def sub(x,y):\n",
+        "  print(x-y)\n",
+        " "
+      ],
+      "metadata": {
+        "id": "8h_RHCpN6PR-"
+      },
+      "execution_count": 14,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x=int(input(\"Enter a number\"))\n",
+        "y=int(input(\"Enter a number\"))\n",
+        "add(x,y)"
+      ],
+      "metadata": {
+        "id": "BtHDTJQt87mg",
+        "outputId": "ffef5a64-dc8c-4e7b-e9ad-ad9e7809b170",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 15,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter a number20\n",
+            "Enter a number20\n",
+            "40\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "sub(y,x)"
+      ],
+      "metadata": {
+        "id": "LATySlvv9-iB",
+        "outputId": "67369ef9-0928-49ef-cf79-7736410fd204",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 16,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "_BfOCVzp-EXu"
+      },
+      "execution_count": 16,
+      "outputs": []
+    }
+  ]
+}
